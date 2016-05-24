@@ -11,16 +11,32 @@
 }
 
 .logo {
-    width: 8vh;
     height: 8vh;
     margin-top: 1vh;
-    background: #FF5041;
     line-height: 8vh;
+}
+
+.logo i{
+    display:block;
+    float:left;
+    width: 8vh;
+    height: 8vh;
+    background: #FFF url(../img/logo.png) no-repeat center center;
     border-radius: 6rem;
     overflow: hidden;
-    text-align: center;
-    color: #FFF;
+    background-size: cover;
+}
+
+.logo h1{
+    display:block;
+    float:left;
+    height: 8vh;
+    line-height: 8vh;
+    overflow: hidden;
+    text-align: left;
+    color: #FF5041;
     font-size: 3rem;
+    margin-left: 1rem;
 }
 
 .nav {
